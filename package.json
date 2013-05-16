@@ -1,0 +1,29 @@
+{
+  "name": "capital",
+  "version": "0.0.0",
+  "description": "A book-keeping module for small businesses to manage accounts, invoices, payments, and refunds",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/axisto-live/capital.git"
+  },
+  "keywords": [
+    "accounting"
+  ],
+  "author": "Paul Jensen <paul.jensen@axisto.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "86263bee9e88298063f3a1f058811e778bdfd063",
+  "dependencies": {
+  },
+  "devDependencies" : {
+    "coffee-script" : "~1.6.2",
+    "docco"         : "~0.6.2",
+    "mocha"         : "~1.9.0"    
+  },
+  "scripts"     : {
+    "document"  : "node_modules/.bin/docco src/*.coffee",
+    "compile"   : "node_modules/.bin/coffee -c -o lib src",
+    "test"      : "NODE_ENV=test node_modules/.bin/mocha --compilers coffee:coffee-script test/**/*"
+  }
+}
