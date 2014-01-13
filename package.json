@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/axisto-live/capital.git"
+    "url": "git://github.com/webcast-io/capital.git"
   },
   "keywords": [
     "accounting"
